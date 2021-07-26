@@ -1,0 +1,20 @@
+{
+  "name": "nlw6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:brsalviano/nlw6-node.git",
+  "author": "Bruno Salviano da Silva Teixeira <br_salviano@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "prettier": "^2.3.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
